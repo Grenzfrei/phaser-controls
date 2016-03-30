@@ -21,10 +21,11 @@
         <script src="js/World/prefabs/ActionMessage.js"></script>
 
         <script src="js/game.js"></script>
-        
+
          <style>
             body {
                 text-align: center;
+                font-family: "Arial", sans-serif;
             }
             #gameDiv{
                 border: 1px solid black;
@@ -32,12 +33,24 @@
                 height: 600px;
                 margin: 0 auto;
             }
+            header img {
+                width: 400px;
+                height: auto;
+            }
+            header h1 {
+                margin: 0 0 10px 0;
+                font-size: 20px;
+            }
         </style>
     </head>
     <body>
-        <h1> Making a Game Part 6 - Loading Objects Data from JSON files</h1>
-        <div id="gameDiv"> </div>
-        <p>Cursor: move ship<br />
-        Enter: Fight troops in city</p>
+        <header>
+            <a href="http://www.makegame.de" target="_blank"><img src="assets/images/logo.gif"></a>
+            <h1>Phaser Controls</h1>
+        </header>
+        <main id="gameDiv"> </main>
+        <footer>
+            <p>More Phaser tutorials? visit <a href="http://www.makegame.de" target="_blank">www.magegame.de</a></p>
+        </footer>
     </body>
 </html>
