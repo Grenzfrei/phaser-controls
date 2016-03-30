@@ -6,7 +6,7 @@ Test this demo [here](http://www.makegame.de/demos/phaser-controls/)
 
 ## Introduction
 
-“Phaser Controls” is made as part of an **online course** about game development which can be found on [making games](https://www.makegame.de). The game as well as every documentation is open source and is intended  to show how to make a game from the first idea to the finished product.
+“Phaser Controls” is made as part of an **online course** about game development which can be found on [www.makegame.de](https://www.makegame.de). The game as well as every documentation is open source and is intended  to show how to make a game from the first idea to the finished product.
 
 ## About
 
