@@ -15,4 +15,4 @@ game.state.add('WorldState', RPG.WorldState);
 //game.state.add('GameOverState', RPG.GameOverState);
 
 // start the loading state to load the game
-game.state.start("BootState", true, false, "assets/json/game_data.json", "WorldState");
+game.state.start("BootState", true, false, "assets/json/game_data.json", "StartState");

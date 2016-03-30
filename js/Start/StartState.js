@@ -19,6 +19,13 @@ RPG.StartState = function (game) {
 RPG.StartState.prototype = Object.create(Phaser.State.prototype);
 RPG.StartState.prototype.constructor = RPG.StartState;
 
+/**
+ * Initialising the Start State
+ */ 
+RPG.StartState.prototype.init = function (game_data) {
+    this.game_data = game_data;
+}
+
 
 /**
  * Creating the Start State
@@ -33,7 +40,7 @@ RPG.StartState.prototype.create = function () {
     this.logo.anchor.setTo(0.5, 0.5);
     
     // add a subtitle text to the screen
-    this.subTitle = this.game.add.text(this.game._width / 2, 200, "Von der Idee zum fertigen Spiel", this._titleStyle);
+    this.subTitle = this.game.add.text(this.game._width / 2, 200, "Phaser Controls", this._titleStyle);
     this.subTitle.anchor.setTo(0.5, 0.5);
     
     // add a message text to the screen
@@ -59,5 +66,5 @@ RPG.StartState.prototype.create = function () {
  */  
 RPG.StartState.prototype.nextState = function () {
     // go to the world state to start the game
-    this.state.start('WorldState');
+    this.state.start('WorldState', true, false, this.game_data);
 };
