@@ -2,7 +2,7 @@
 
 # Phaser Controls
 
-Test this demo [here](http://www.makegame.de/demos/phaser-controls/)
+Test this demo [here](http://www.makegame.de/phaser-controls-und-keyboard-codes/)
 
 ## Introduction
 
