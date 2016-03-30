@@ -4,7 +4,7 @@ var RPG = RPG || {},
     Phaser = Phaser || {};
 
 // create new phaser game object with height: 800px and height: 600px
-var game = new Phaser.Game(800, 600, Phaser.AUTO, 'gameDiv');
+var game = new Phaser.Game(640, 480, Phaser.AUTO, 'gameDiv');
 
 // Add the game states
 game.state.add('BootState', RPG.BootState);
